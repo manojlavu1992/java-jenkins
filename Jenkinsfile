@@ -130,5 +130,6 @@ pipeline {
         to: "brandon@linuxacademy.com"
       )
     }
+    
   }
 }
