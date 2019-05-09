@@ -1,9 +1,9 @@
 pipeline{
   agent any
 
-  options{
-    buildDiscarder(logRotator(numToKeepStr: '2', artifactNumToKeepStr: '1'))
-  }
+  // options{
+  //   buildDiscarder(logRotator(numToKeepStr: '2', artifactNumToKeepStr: '1'))  //keeps only 2 build
+  // }
 
   stages{
     stage('build') {
